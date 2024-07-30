@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+box-sizing: border-box;
+}
+
 :root{
 --primay-color: #FFDFD6;
 --secundary-color: #E3A5C7;
 --terciario-color: #B692C2;
 
 
---primay-font:"Oswald", sans-serif;
---secundary-font: "Playfair Display", serif;
+--primay-font:"Oswald", sans-serif; /* para temas */
+--secundary-font: "Playfair Display", serif; /* para texto */
+--terciario-font: "Playwrite AT", cursive; /* carta */
 
 }
 
-
-h1{
-    color: var(--primay-color);
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secundary-color);
+    align-items: center;
+    padding: 1rem;
 
 }
+
+.navbar-ti
