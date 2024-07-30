@@ -15,7 +15,7 @@ box-sizing: border-box;
 
 --primay-font:"Oswald", sans-serif; /* para temas */
 --secundary-font: "Playfair Display", serif; /* para texto */
---terciario-font: "Playwrite AT", cursive; /* carta */
+--terciario-font: "Playwrite AT"; /* carta */
 
 }
 
@@ -25,7 +25,7 @@ box-sizing: border-box;
     background-color: var(--secundary-color);
     align-items: center;
     padding: 1rem;
+   
 
 }
 
-.navbar-ti
