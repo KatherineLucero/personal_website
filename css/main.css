@@ -40,7 +40,7 @@ box-sizing: border-box;
 background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-height: 100vh;
+height: 100vh; /* parsa poner el cuadro en toda la pagina */
 
 display: flex;
 justify-content: center;
@@ -48,6 +48,37 @@ align-items: center;
 
 }
 
+
+.on{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 2rem;
+    place-items: center;
+
+}
+
+
+
+.on-container-img{
+    display: flex;
+    height: 50vh;
+    gap:1rem;
+
+}
+
+.on-img{
+    width: 25%;
+    height: 100%;
+
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.on-img:nth-child(2){
+  position: relative;
+  top: 50px;
+}
 
 
 
